@@ -1,0 +1,10 @@
+// 共通ボタン
+
+@use "../global/index"as g;
+
+.c-button {
+
+
+  @include g.mq(md) {
+  }
+}
