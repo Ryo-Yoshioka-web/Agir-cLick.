@@ -1,0 +1,12 @@
+/****************************************:
+
+header
+
+*****************************************:*/
+@use "../global/index"as g;
+
+.header {
+  display: flex;
+  height: 40px;
+  border: 1px solid black;
+}
