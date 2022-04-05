@@ -3,6 +3,7 @@
   --bg-gray-light: #fafafa;
   --bg-gray: #f5f5f5;
   --bg-gray-dark: #e6e6e6;
+  --bg-page-light: #FFF7EB;
   --bg-primary: #ff9158;
   --font-primary: #ff9158;
   --border-primary: #ff9158;
@@ -21,7 +22,7 @@
 }
 
 body {
-  background-color: #FFF7EB;
+  background-color: var(--bg-page-light);
 }
 .service {
   margin: 0 auto;
