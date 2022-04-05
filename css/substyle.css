@@ -109,3 +109,47 @@ body {
   border: 1px solid gray;
   background-color: white;
 }
+
+/* contact */
+
+.contact {
+  max-width: 720px;
+  width: 90%;
+  margin: 0 auto;
+}
+.contact__ttl {
+  padding-top: 120px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+.contact__wrap {
+  margin-top: 80px;
+}
+.contact__items + .contact__items {
+  margin-top: 24px;
+}
+.contact__label {
+  background-color: var(--font-primary);
+  color: var(--font-color-white);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.contact__column {
+  margin-top: 8px;
+}
+.contact__input,
+.contact__textBox {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 100%;
+  max-width: 240px;
+}
+.contact__textBox {
+  max-width: none;
+}
