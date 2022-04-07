@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 :root {
   --bg-gray-light: #fafafa;
   --bg-gray: #f5f5f5;
@@ -24,29 +25,35 @@
 body {
   background-color: var(--bg-page-light);
 }
+
 .service {
   margin: 0 auto;
   max-width: 1020px;
 }
+
 .service__ttl {
   font-weight: bold;
   text-align: center;
   font-size: 40px;
 }
+
 .service__inner {
   margin-top: 80px;
   padding: 0 4vw;
 }
+
 .service__subttl {
   font-weight: bold;
   font-size: 24px;
   text-align: center;
 }
+
 .service__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .service__item {
   border: 1px solid gray;
   border-radius: 24px;
@@ -57,13 +64,16 @@ body {
   margin-top: 32px;
   background-color: white;
 }
+
 .service__detail {
   font-size: 20px;
 }
+
 .service__money,
 .service__contents {
   position: relative;
 }
+
 .service__price {
   padding: 48px 0;
   margin-top: 24px;
@@ -72,12 +82,14 @@ body {
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
 }
+
 .service__content {
   display: inline-block;
   padding-top: 48px;
   line-height: 2;
   text-align: left;
 }
+
 .service__label {
   position: absolute;
   top: 16px;
@@ -85,24 +97,29 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+
 .service__about {
   margin-top: 40px;
 }
+
 .service__info {
   margin-top: 24px;
   text-align: center;
   text-decoration: underline;
   line-height: 1.5;
 }
+
 .service__alert {
   color: red;
   margin-top: 24px;
   font-size: 16px;
 }
+
 .service__btn {
   text-align: center;
   margin-top: 40px;
 }
+
 .service__link {
   padding: 16px 24px;
   border-radius: 50vh;
@@ -117,18 +134,22 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
 .contact__ttl {
   padding-top: 120px;
   font-weight: bold;
   text-align: center;
   font-size: 40px;
 }
+
 .contact__wrap {
   margin-top: 80px;
 }
-.contact__items + .contact__items {
+
+.contact__items+.contact__items {
   margin-top: 24px;
 }
+
 .contact__label {
   background-color: var(--font-primary);
   color: var(--font-color-white);
@@ -138,9 +159,11 @@ body {
   font-size: 12px;
   font-weight: bold;
 }
+
 .contact__column {
   margin-top: 8px;
 }
+
 .contact__input,
 .contact__textBox {
   background-color: white;
@@ -150,6 +173,7 @@ body {
   width: 100%;
   max-width: 240px;
 }
+
 .contact__textBox {
   max-width: none;
 }
