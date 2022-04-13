@@ -34,7 +34,7 @@ body {
 .service__ttl {
   font-weight: bold;
   text-align: center;
-  font-size: 40px;
+  font-size: clamp(24px, 10vw,40px);
 }
 
 .service__inner {
@@ -63,6 +63,15 @@ body {
   text-align: center;
   margin-top: 32px;
   background-color: white;
+}
+@media screen and (max-width: 768px) {
+  .service__list {
+    justify-content: center;
+  }
+  .service__item  {
+      width: 80%;
+      min-width: auto;
+    }
 }
 
 .service__detail {
