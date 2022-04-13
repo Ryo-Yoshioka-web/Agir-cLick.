@@ -203,3 +203,36 @@ body {
 }
 
 /* nopage */
+
+.nopage {
+  height: 90vh;
+  text-align: center;
+}
+.nopage__status {
+  color: var(--font-primary);
+  font-weight: bold;
+  font-size: clamp(24px, 30vw,160px);
+}
+.nopage__title {
+  color: var(--font-primary);
+  font-size: 24px;
+  font-weight: bold;
+}
+.nopage__text {
+  margin-top: 40px;
+}
+.nopage__text,
+.nopage__text02 {
+  font-weight: bold;
+  font-size: clamp(12px,5vw,16px);
+}
+.nopage__btn {
+  display: inline-block;
+  padding: 16px 40px;
+  border: 1px solid black;
+  border-radius: 50vh;
+  margin-top: 40px;
+}
+* {
+  outline: 1px solid red;
+}
