@@ -34,7 +34,7 @@ body {
 .service__ttl {
   font-weight: bold;
   text-align: center;
-  font-size: clamp(24px, 10vw,40px);
+  font-size: clamp(24px, 10vw, 40px);
 }
 
 .service__inner {
@@ -64,14 +64,16 @@ body {
   margin-top: 32px;
   background-color: white;
 }
+
 @media screen and (max-width: 768px) {
   .service__list {
     justify-content: center;
   }
-  .service__item  {
-      width: 80%;
-      min-width: auto;
-    }
+
+  .service__item {
+    width: 80%;
+    min-width: auto;
+  }
 }
 
 .service__detail {
@@ -82,10 +84,12 @@ body {
 .service__contents {
   position: relative;
 }
+
 .service__money {
   margin-top: 24px;
 }
-.service__price{
+
+.service__price {
   padding: 48px 0;
   margin-top: 24px;
   font-weight: bold;
@@ -93,9 +97,11 @@ body {
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
 }
+
 .service__price_item {
   position: relative;
 }
+
 .service__price_another {
   padding: 17px 0;
   font-weight: bold;
@@ -103,10 +109,16 @@ body {
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
 }
+
+.border-none {
+  border-top: none;
+}
+
 .service__price_item:nth-child(2) {
   margin-top: 0;
   border-top: none;
 }
+
 .service__content {
   display: inline-block;
   padding-top: 48px;
@@ -209,24 +221,29 @@ body {
   height: 90vh;
   text-align: center;
 }
+
 .nopage__status {
   color: var(--font-primary);
   font-weight: bold;
-  font-size: clamp(24px, 30vw,160px);
+  font-size: clamp(24px, 30vw, 160px);
 }
+
 .nopage__title {
   color: var(--font-primary);
   font-size: 24px;
   font-weight: bold;
 }
+
 .nopage__text {
   margin-top: 40px;
 }
+
 .nopage__text,
 .nopage__text02 {
   font-weight: bold;
-  font-size: clamp(12px,5vw,16px);
+  font-size: clamp(12px, 5vw, 16px);
 }
+
 .nopage__btn {
   display: inline-block;
   padding: 16px 40px;
