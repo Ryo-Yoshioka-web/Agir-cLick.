@@ -12,6 +12,7 @@
   --font-color-black: #414141;
   --font-color-white: #ffffff;
   --font-color-green: #4B7447;
+  --font-snow: #F4FBFE;
 }
 
 :root {
@@ -28,6 +29,7 @@ body {
   /* background: rgb(235, 138, 68); */
   background: linear-gradient(180deg, rgba(235, 138, 68, .7) 0%, rgba(255, 200, 160, 0.6026785714285714) 70%, rgba(252, 210, 95, 1) 100%);
   /* padding: 0 3vw; */
+  font-family: 'Sawarabi Mincho', serif;
 }
 
 .flex {
@@ -38,6 +40,11 @@ body {
   max-width: 1020px;
   margin: 0 auto;
   padding: 0 3vw;
+}
+
+.bold {
+  font-weight: bold;
+  color: #000;
 }
 
 /* header */
@@ -300,8 +307,8 @@ body {
   width: 100%;
   margin: 30px auto 0;
   position: relative;
-  height: 60vh;
-  background: url(../img/fv.jpg) center 20% /cover;
+  height: 75vh;
+  background: url(../img/fv.jpg) 0% 50% /cover;
   border-radius: 5px;
 }
 
@@ -313,10 +320,10 @@ body {
 }
 
 .mv__inner-img {
-  height: 130px;
+  height: 100px;
   width: 50%;
   aspect-ratio: 3/2;
-  margin-bottom: 120px;
+  margin-bottom: 160px;
 }
 
 .mv__text {
@@ -330,6 +337,10 @@ body {
 }
 
 @media screen and (max-width: 599px) {
+  .mv {
+    height: 60vh;
+  }
+
   .mv__inner {
     height: 45vh;
   }
@@ -337,7 +348,7 @@ body {
   .mv__inner-img {
     height: 70px;
     width: 80%;
-
+    margin-bottom: 100px;
   }
 }
 
@@ -351,7 +362,9 @@ body {
   font-size: clamp(12px, 4vw, 32px);
   width: 30%;
   margin-bottom: 32px;
+  text-shadow: 2px 2px 1px var(--font-snow);
 }
+
 
 .about__text {
   width: 80%;
@@ -370,6 +383,7 @@ body {
   font-size: clamp(12px, 4vw, 32px);
   width: 30%;
   margin-bottom: 32px;
+  text-shadow: 2px 2px 1px var(--font-snow);
 }
 
 .serviceTop__box {
@@ -428,7 +442,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   margin-left: 20px;
-  font-size: clamp(12px, .7vw, 24px);
+  font-size: clamp(12px, .82vw, 24px);
 }
 
 .service__fee {
@@ -449,7 +463,7 @@ body {
 .service__right-text-box {
   width: 80%;
   margin-left: 20px;
-  font-size: clamp(12px, .63vw, 22px);
+  font-size: clamp(12px, .72vw, 22px);
 }
 
 .service__btn-Top {
@@ -490,7 +504,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 848px) {
 
   .serviceTop__box {
     display: block;
@@ -614,6 +628,7 @@ body {
   font-size: clamp(12px, 4vw, 32px);
   width: 30%;
   margin-bottom: 32px;
+  text-shadow: 2px 2px 1px var(--font-snow);
 }
 
 .member__box {
@@ -643,7 +658,7 @@ body {
   height: 80%;
   flex-flow: column;
   justify-content: space-evenly;
-  color: #707070;
+  color: #000;
 }
 
 .member__img-box {
