@@ -26,6 +26,10 @@ body {
   background-color: var(--bg-page-light);
 }
 
+
+
+/* service */
+
 .service {
   margin: 0 auto;
   max-width: 1020px;
@@ -191,7 +195,6 @@ body {
   color: var(--font-color-white);
   padding: 4px 8px;
   border-radius: 4px;
-  margin-left: px;
   font-size: 12px;
   font-weight: bold;
 }
@@ -213,6 +216,20 @@ body {
 .contact__textBox {
   max-width: none;
   resize: none;
+}
+
+.contact__sent {
+  margin-top: 40px;
+  text-align: center;
+}
+.contact__submit {
+  padding: 16px 24px;
+  border-radius: 50vh;
+  background-color: var(--font-primary);
+  color: white;
+}
+.contact__submit:hover {
+  background-color: var(--bg-primary);
 }
 
 /* nopage */
