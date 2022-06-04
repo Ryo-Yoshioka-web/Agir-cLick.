@@ -59,6 +59,16 @@ body {
   width: 25%;
 }
 
+.header__list {
+  transition: all .3s ease 0s;
+  text-decoration: none;
+}
+
+.header__list:hover {
+  cursor: pointer;
+  text-shadow: 3px 3px 7px var(--font-color-white);
+}
+
 .header__list:not(:first-child) {
   margin-left: 40px;
 }
@@ -317,11 +327,12 @@ body {
   margin: 0 auto;
   position: absolute;
   top: 17%;
+  left: 10%;
 }
 
 .mv__inner-img {
-  height: 100px;
-  width: 50%;
+  height: 126px;
+  width: 400px;
   aspect-ratio: 3/2;
   margin-bottom: 160px;
 }
@@ -339,10 +350,13 @@ body {
 @media screen and (max-width: 599px) {
   .mv {
     height: 60vh;
+    background: url(../img/fv.jpg) 100% /cover;
   }
 
   .mv__inner {
     height: 45vh;
+    left: 20px;
+    top: 30%;
   }
 
   .mv__inner-img {
@@ -373,6 +387,7 @@ body {
   margin-left: auto;
   margin-right: 0;
   font-size: clamp(12px, 1vw, 28px);
+  line-height: 2.8rem;
 }
 
 /* service */
